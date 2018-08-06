@@ -1,0 +1,18 @@
+body {background-color: #FFD683;
+				color: #CF4141;}
+.btm {font-size: 16px;
+		  color: blue;}
+.welcome {font-size: 32px;
+	   font-family: impact;}
+.pic {border-style: dotted;}
+li{display:inline-table;}
+.item {position: absolute;
+top: 520px;
+left: 600px;
+z-index: 1;
+font-size: 28px;
+font-family: impact;}
+.gif{position: absolute;
+top: 150px;
+left: 1050px;
+z-index 1;}

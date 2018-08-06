@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>Sign Up</title>
+<style type="text/css">
+body {background-color: #FFD683;
+color: #CF4141;}
+#footer {font-size: 12px;
+color: blue;}
+#Overview {font-size: 20pt;
+font-family: impact;}
+</style>
+</head>
+<body>	
+<h1>Welcome To Registration Page!</h1> 
+<h2>Please fill in the form below to successfully register.</h2> 
+
+<form method = "post" autocomplete = "on">
+<p><label>Enter Your First Name:<br>
+<input type="text" 
+placeholder = " First Name" required  
+name="firstname"> (First Name)
+</label></p>
+<br/>
+Enter Your Last Name:<br>
+<input type="text" 
+placeholder = " Last Name" required
+name="lastname"> (Last Name)
+ <p><label>
+ <br>
+ Enter Your Phone Number:
+  <input type="tel" placeholder = " Phone Number"  name="usrtel"> (Personal Phone Number)
+</label><p>
+<p><label>Enter Your Email:
+<input type = "email" placeholder = "  email@domain.com"/> (Email Address)
+</label></p>
+<br/>
+<p><label>Birth Month:
+<input type = "text" placeholder = "  Select Month" list = "months" /> (Select Month Of Birth)
+<datalist id = "months">
+<option value = " January">
+<option value = " February">
+<option value = " March">
+<option value = " April">
+<option value = " May">
+<option value = " June">
+<option value = " July">
+<option value = " August">
+<option value = " September">
+<option value = " October">
+<option value = " November">
+<option value = " December">
+</datalist>
+</label></p>
+<p><label>Birth Year:
+<input type = "bd" placeholder = " Year of Birth"/> (Enter Year Of Birth)
+</label></p>
+<p>*Alternatively you can pick your complete birthdate.</p>
+  Birthday:
+  <input type="date" name="bday">
+  
+<br/>
+<br/>
+<input type="radio" name="sex" value="male" checked>Male
+<input type="radio" name="sex" value="female">Female
+<br/>
+<br/>
+<input type="submit" value="Submit">
+<input type="reset" value="Clear Fields">
+<br/>
+<br/>
+<br/>
+<a href="home.html">
+<img src="home.png" align="middle"></a>
+
+<hr/>
+<div id=footer> <font size="3"> <font type="impact">
+<p class= "btm">&copy; Ben & Jac Inc. All rights reserved. | Terms of Use | Privacy & Security.</p>
+</div>
+
+
+</form>
+
+</body>
+</html>
